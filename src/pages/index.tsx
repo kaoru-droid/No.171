@@ -17,8 +17,6 @@ export default () => (
       />
       <h1>No.171</h1>
 
-      <Features />
-
       <div className="explanation">
         <p>
           This is a statically generated{' '}
