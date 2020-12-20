@@ -19,7 +19,7 @@ export default ({ titlePre = '' }) => {
   return (
     <header className={styles.header}>
       <Head>
-        <h1 href="https://no-171.vercel.app/blog">No.171</h1>
+        <a ref="https://no-171.vercel.app/blog">No.171</a>
         <title>{titlePre ? `${titlePre} |` : ''} No.171</title>
       </Head>
       <ul>
