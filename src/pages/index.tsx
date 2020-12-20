@@ -10,7 +10,7 @@ export default () => (
   <>
     <Header titlePre="Home" />
     <div className={sharedStyles.layout}>
-      <h1>No.171</h1>
+      <h1>NO.171</h1>
     </div>
   </>
 )
