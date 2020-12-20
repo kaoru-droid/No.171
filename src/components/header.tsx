@@ -19,9 +19,9 @@ export default ({ titlePre = '' }) => {
   return (
     <header className={styles.header}>
       <Head>
-        <a ref="https://no-171.vercel.app/blog">No.171</a>
         <title>{titlePre ? `${titlePre} |` : ''} No.171</title>
       </Head>
+      <h1>No.171</h1>
       <ul>
         {navItems.map(({ label, page, link }) => (
           <li key={label}>
