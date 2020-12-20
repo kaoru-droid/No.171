@@ -1,9 +1,11 @@
 .header {
   display: block;
-  min-height: 64px;
-  padding: 2em 0;
-  text-align: center;
+  min-height: 60;
+  padding: 0;
+  text-align: left;
   letter-spacing: -0.02em;
+  background-color: black;
+  color: white;
 }
 
 .header ul {
@@ -28,6 +30,6 @@
 
 @media (max-width: 600px) {
   .header {
-    padding: .5em 0 2em;
+    padding: 0.5em 0 2em;
   }
 }
