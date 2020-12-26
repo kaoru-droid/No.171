@@ -21,12 +21,9 @@ export default ({ titlePre = '' }) => {
       <Head>
         <title>{titlePre ? `${titlePre} |` : ''} No.171</title>
       </Head>
-      <img
-        src="public/heder.tsx"
-        height={46}
-        width={132}
-        alt="deploy to Vercel button"
-      />
+
+      <h1>No.171</h1>
+
       <ul>
         {navItems.map(({ label, page, link }) => (
           <li key={label}>
