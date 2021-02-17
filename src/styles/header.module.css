@@ -45,8 +45,7 @@
 
 .header h1 {
   line-height: 5px;
-  float: left;
+  float: center;
   font-size: 50px;
-  margin-left: 50px;
   margin-top: 15px;
 }
