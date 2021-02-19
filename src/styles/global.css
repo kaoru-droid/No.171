@@ -285,11 +285,12 @@ h1 {
 
 h2 {
   font-weight: 300;
-  font-size: 25px;
+  font-size: 20px;
   letter-spacing: -0.02rem;
   background-color: #000;
   color: white;
   display: inline-block;
+  margin-left: 206.5px;
 }
 
 .video {
