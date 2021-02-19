@@ -65,7 +65,6 @@
 .postPreview {
   max-width: 600px;
   margin: 10px auto;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
 }
 
 .postPreview:last-child {
@@ -90,7 +89,6 @@
 .post :global(img),
 .post :global(.asset-wrapper) {
   margin: 2rem auto;
-  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
   max-width: 100%;
   display: block;
 }
