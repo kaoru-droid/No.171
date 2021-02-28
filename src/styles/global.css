@@ -290,7 +290,7 @@ h2 {
   background-color: #000;
   color: white;
   display: inline-block;
-  margin-left: 206.5px;
+  justify-content: center;
 }
 
 .video {
