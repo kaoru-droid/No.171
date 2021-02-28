@@ -250,12 +250,13 @@ figure {
   color: #999;
 }
 
+/* blogの記事動作 */
 a {
-  color: #0070f3;
+  color: #000;
   text-decoration: none;
 }
 a:hover {
-  color: #3291ff;
+  text-decoration: underline;
 }
 
 .links {
