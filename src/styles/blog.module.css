@@ -73,7 +73,10 @@
   border-bottom: none;
 }
 
-.postPreview h3,
+.postPreview h3 {
+  margin-bottom: 0;
+  font-size: 20px;
+}
 .post h1 {
   margin-bottom: 0;
 }
