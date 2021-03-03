@@ -7,6 +7,7 @@
   letter-spacing: -0.02em;
   background-color: white;
   color: black;
+  margin-bottom: 30px;
 }
 
 .headline {
@@ -48,4 +49,5 @@
   float: center;
   font-size: 50px;
   margin-top: 15px;
+  margin-bottom: 30px;
 }
