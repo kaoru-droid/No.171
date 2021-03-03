@@ -85,7 +85,7 @@ export default ({ posts = [], preview }) => {
                 <div className="authors">🙍‍♂️{post.Authors.join(' ')}</div>
               )}
               {post.Date && (
-                <div className="posted"> 📅{getDateStr(post.Date)}</div>
+                <div className="posted"> //{getDateStr(post.Date)}</div>
               )}
               <p>
                 {(!post.preview || post.preview.length === 0) && ''}
