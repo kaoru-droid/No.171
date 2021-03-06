@@ -1,13 +1,14 @@
 .header {
-  display: block;
+  display: contents;
   min-height: 64px;
   padding: 15px 0;
   height: 50px;
-  text-align: center;
+  text-align: left;
   letter-spacing: -0.02em;
   background-color: white;
   color: black;
   margin-bottom: 30px;
+  justify-content: center;
 }
 
 .headline {
@@ -21,11 +22,15 @@
 .header ul {
   list-style: none;
   padding: 0;
+  margin: 10px auto;
+  max-width: 600px;
 }
 
 .header ul li {
   display: inline-block;
   padding: 0 10px;
+  margin: 10px auto;
+  max-width: 600px;
 }
 
 .header :global(a) {
@@ -34,20 +39,28 @@
 }
 
 .header :global(a.active) {
-  color: #0070f3;
-  font-weight: 600;
+  color: black;
+  font-weight: 800;
+  font-size: 50px;
 }
 
 @media (max-width: 600px) {
   .header {
-    padding: 0.5em 0 2em;
+    /* padding: 0.5em 0 2em; */
+    flex-basis: auto;
+    padding-left: 0;
   }
 }
 
 .header h1 {
   line-height: 5px;
-  float: center;
+  float: left;
   font-size: 50px;
   margin-top: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
+  color: var(--accents-3);
+}
+.header :global(h1.active) {
+  color: black;
+  font-weight: 800;
 }
