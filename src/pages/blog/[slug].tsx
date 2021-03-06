@@ -12,6 +12,7 @@ import React, { CSSProperties, useEffect } from 'react'
 import getBlogIndex from '../../lib/notion/getBlogIndex'
 import getNotionUsers from '../../lib/notion/getNotionUsers'
 import { getBlogLink, getDateStr } from '../../lib/blog-helpers'
+import Zoom from 'react-medium-image-zoom'
 
 // Get the data for each blog post
 export async function getStaticProps({ params: { slug }, preview }) {
