@@ -1,9 +1,9 @@
 .header {
-  display: contents;
+  display: table;
   min-height: 64px;
-  padding: 15px 0;
   height: 50px;
   text-align: left;
+  text-justify: auto;
   letter-spacing: -0.02em;
   background-color: white;
   color: black;
@@ -21,14 +21,13 @@
 
 .header ul {
   list-style: none;
-  padding: 0;
+  padding: 0 18.75px;
   margin: 10px auto;
   max-width: 600px;
 }
 
 .header ul li {
   display: inline-block;
-  padding: 0 10px;
   margin: 10px auto;
   max-width: 600px;
 }
@@ -47,7 +46,7 @@
 
 @media (max-width: 600px) {
   .header {
-    /* padding: 0.5em 0 2em; */
+    padding: 0.5em 0.2em;
     flex-basis: auto;
     padding-left: 0;
   }
