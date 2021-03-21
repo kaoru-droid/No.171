@@ -1,8 +1,9 @@
 import ExtLink from './ext-link'
+import styles from '../styles/header.module.css'
 
 export default () => (
   <>
-    <footer>
+    <footer className={styles.header}>
       <span>No.171 BLOG POWERED BY Notion Blog</span>
     </footer>
   </>
