@@ -237,7 +237,23 @@ const RenderPost = ({ post, redirect, preview }) => {
               }
               break
             case 'image':
-            case 'video':
+            case 'video': {
+              // <figure key={id} style={{ margin: 0, marginBottom: 24 }}>
+              //   <Zoom overlayBgColorStart="rgba(255, 255, 255, 0)" overlayBgColorEnd="rgba(0, 0, 0, 0.89)">
+              //      <Comp
+              //       src={`/api/asset?assetUrl=${encodeURIComponent(format.display_source as any)}&blockId=${id}`}
+              //       controls={!isImage}
+              //       alt={getAltStr(properties.caption)}
+              //       loop={!isImage}
+              //       muted={!isImage}
+              //       autoPlay={!isImage}
+              //       style={{ width, marginBottom: 4 }}
+              //       className={blogStyles.postImg}
+              //       />
+              //     </Zoom>
+              //   <figcaption className="figcaption tac">{getCaptionStr(properties.caption)}</figcaption>
+              // </figure>
+            }
             case 'embed': {
               const { format = {} } = value
               const {
