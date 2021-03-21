@@ -40,6 +40,7 @@
 .header :global(a.active) {
   /* color: black; */
   /* font-weight: 800; */
+  color: var(--accents-3);
 }
 
 @media (max-width: 600px) {
@@ -47,6 +48,9 @@
     /* padding: 0.5em 0.2em; */
     flex-basis: auto;
     padding-left: 0;
+  }
+  .footer {
+    text-align: center;
   }
 }
 
