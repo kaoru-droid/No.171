@@ -20,7 +20,7 @@ const navTravel: { label: string; page?: string; link?: string }[] = [
   // { label: 'Home', page: '/' },
   // { label: 'Blog', page: '/blog' },
   //{ label: 'Contact', page: '/contact' }.
-  { label: 'Travel', page: '/blog/travel' },
+  { label: 'Travel', page: '/travel' },
 ]
 
 /*const ogImageUrl = 'https://notion-blog.now.sh/og-image.png'*/
