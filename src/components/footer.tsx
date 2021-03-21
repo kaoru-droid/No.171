@@ -3,8 +3,8 @@ import styles from '../styles/header.module.css'
 
 export default () => (
   <>
-    <footer className={styles.header}>
-      <span>No.171 BLOG POWERED BY Notion Blog</span>
+    <footer className={styles.footer}>
+      <p>No.171 BLOG POWERED BY Notion Blog</p>
     </footer>
   </>
 
