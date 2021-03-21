@@ -39,9 +39,9 @@ export default ({ titlePre = '' }) => {
           <li key={label}>
             {page ? (
               <Link href={page}>
-                <a className={pathname === page ? 'active' : undefined}>
+                <h1 className={pathname === page ? 'active' : undefined}>
                   {label}
-                </a>
+                </h1>
               </Link>
             ) : (
               <ExtLink href={link}>{label}</ExtLink>
