@@ -40,7 +40,7 @@ export default () => (
         <img src="/avatar.png" alt="avatar with letters JJ" height={60} />
       </div> */}
 
-      <h1 style={{ marginTop: 0 }}>Travel</h1>
+      <h2 style={{ marginTop: 0 }}>Travel</h2>
 
       <div className={contactStyles.gmap}>
         <iframe
