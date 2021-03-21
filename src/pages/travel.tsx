@@ -3,6 +3,7 @@ import ExtLink from '../components/ext-link'
 
 import sharedStyles from '../styles/shared.module.css'
 import contactStyles from '../styles/contact.module.css'
+import blogStyles from '../styles/blog.module.css'
 
 import GitHub from '../components/svgs/github'
 import Twitter from '../components/svgs/twitter'
@@ -35,12 +36,12 @@ const contacts = [
 export default () => (
   <>
     <Header titlePre="Travel" />
-    <div className={sharedStyles.layout}>
+    <div className={`${sharedStyles.layout} ${blogStyles.blogIndex}`}>
       {/* <div className={contactStyles.avatar}>
         <img src="/avatar.png" alt="avatar with letters JJ" height={60} />
       </div> */}
 
-      <h2 style={{ marginTop: 0 }}>Travel</h2>
+      <h2>Travel</h2>
 
       <div className={contactStyles.gmap}>
         <iframe
