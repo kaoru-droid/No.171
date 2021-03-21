@@ -42,11 +42,13 @@ export default () => (
 
       <h1 style={{ marginTop: 0 }}>Travel</h1>
 
-      <iframe
-        src="https://www.google.com/maps/d/u/0/embed?mid=1AP0JTB0Rb_4VfGbC2vDWSaYflS1cl1Ku"
-        width="600"
-        height="480"
-      ></iframe>
+      <div className={contactStyles.gmap}>
+        <iframe
+          src="https://www.google.com/maps/d/u/0/embed?mid=1AP0JTB0Rb_4VfGbC2vDWSaYflS1cl1Ku"
+          width="600"
+          height="480"
+        ></iframe>
+      </div>
 
       {/* <div className={contactStyles.name}>
         JJ Kasper - Next.js Engineer @{' '}
