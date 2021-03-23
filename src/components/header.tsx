@@ -22,6 +22,13 @@ const navTravel: { label: string; page?: string; link?: string }[] = [
   //{ label: 'Contact', page: '/contact' }.
   { label: 'Travel', page: '/travel' },
 ]
+const navProfile: { label: string; page?: string; link?: string }[] = [
+  // { label: 'Home', page: '/' },
+  // { label: 'Blog', page: '/blog' },
+  //{ label: 'Contact', page: '/contact' }.
+  // { label: 'Travel', page: '/travel' },
+  { label: 'Profile', page: '/profile' },
+]
 
 /*const ogImageUrl = 'https://notion-blog.now.sh/og-image.png'*/
 
@@ -66,6 +73,21 @@ export default ({ titlePre = '' }) => {
       </ul>
       <ul>
         {navTravel.map(({ label, page, link }) => (
+          <li key={label}>
+            {page ? (
+              <Link href={page}>
+                <a className={pathname === page ? 'active' : undefined}>
+                  {label}
+                </a>
+              </Link>
+            ) : (
+              <ExtLink href={link}>{label}</ExtLink>
+            )}
+          </li>
+        ))}
+      </ul>
+      <ul>
+        {navProfile.map(({ label, page, link }) => (
           <li key={label}>
             {page ? (
               <Link href={page}>
