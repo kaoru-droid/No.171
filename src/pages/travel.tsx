@@ -56,7 +56,7 @@ export default () => (
         <ExtLink href="https://vercel.com">Vercel</ExtLink>
       </div> */}
 
-      <div className={contactStyles.links}>
+      {/* <div className={contactStyles.links}>
         {contacts.map(({ Comp, link, alt }) => {
           return (
             <ExtLink key={link} href={link} aria-label={alt}>
@@ -64,7 +64,7 @@ export default () => (
             </ExtLink>
           )
         })}
-      </div>
+      </div> */}
     </div>
   </>
 )
