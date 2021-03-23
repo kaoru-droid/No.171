@@ -45,7 +45,9 @@ export default () => (
 
       <img src="/profile.JPG" />
 
-      <div className={contactStyles.links}>
+      <p>comming soon.....</p>
+
+      {/* <div className={contactStyles.links}>
         {contacts.map(({ Comp, link, alt }) => {
           return (
             <ExtLink key={link} href={link} aria-label={alt}>
@@ -53,7 +55,7 @@ export default () => (
             </ExtLink>
           )
         })}
-      </div>
+      </div> */}
     </div>
   </>
 )
