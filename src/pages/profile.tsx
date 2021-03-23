@@ -43,6 +43,8 @@ export default () => (
 
       <h2>Kaoru Matsui</h2>
 
+      <img src="/profile.JPG" />
+
       <div className={contactStyles.links}>
         {contacts.map(({ Comp, link, alt }) => {
           return (
