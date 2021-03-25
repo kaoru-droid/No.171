@@ -135,7 +135,7 @@
 }
 
 .post :global(hr) {
-  /* margin-bottom: 2em; */
+  margin-bottom: 2em;
 }
 
 .post :global(a + p) {
