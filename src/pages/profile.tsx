@@ -35,7 +35,7 @@ const contacts = [
 
 export default () => (
   <>
-    <Header titlePre="Travel" />
+    <Header titlePre="profile" />
     <div className={`${sharedStyles.layout} ${blogStyles.blogIndex}`}>
       {/* <div className={contactStyles.avatar}>
           <img src="/avatar.png" alt="avatar with letters JJ" height={60} />
