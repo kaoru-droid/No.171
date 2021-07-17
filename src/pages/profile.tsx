@@ -45,7 +45,7 @@ export default () => (
 
       <img src="/profile.JPG" />
 
-      <p>comming soon....</p>
+      <p>comming soon...</p>
 
       {/* <div className={contactStyles.links}>
         {contacts.map(({ Comp, link, alt }) => {
